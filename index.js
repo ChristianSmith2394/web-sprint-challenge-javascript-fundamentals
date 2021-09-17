@@ -82,7 +82,10 @@ const zooAnimals = [
   */
 
   function lowPopulationAnimals(){
-    
+    const lowerPop = zooAnimals.filter((animal) => {
+      return animal.population < 5
+    })
+    return lowerPop
   }
   
 
