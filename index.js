@@ -57,12 +57,10 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(name, scientific_name){
-    name = zooAnimals.animal_name
-    scientificName = zooAnimals.scientific_name
-    return `name: ${this.name}, scientific: ${this.scientificName}`
+  function animalNames(){
+
+    return `name: ${name}, scientific: ${scientific_name}`
   }
-  
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
   The zoo needs a list of all their animal's names converted to lower case. 
@@ -104,23 +102,23 @@ const zooAnimals = [
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
 
-  function consume(/*Your Code Here */){
-    /*Your Code Here */
+  function consume(a, b, cb){
+    return cb(a, b)
   }
  
   
   /* 🦁🦁🦁 Step 2: Create several functions to callback with consume(); 🦁🦁🦁 */
  // 🦁🦁🦁 Use add to return the sum of two numbers 🦁🦁🦁
   
-function add(/*Your Code Here */){
-    /*Your Code Here*/
+function add(num1, num2){
+    return num1 + num2
   }
 
 
 // 🦁🦁🦁 Use multiply to return the product of two numbers 🦁🦁🦁
   
-function multiply(/*Your Code Here */){
-   /*Your Code Here */
+function multiply(num1, num2){
+   return num1 * num2
   }
 
 
@@ -191,6 +189,9 @@ class CuboidMakerTwo{
     this.length = length
     this.width = width
     this.height = height
+  }
+  volume(){
+    return this.length * this.width * this.height
   }
   surfaceArea(){
     return 2 * (this.length * this.width + this.length * this.height + this.width * this.height)
