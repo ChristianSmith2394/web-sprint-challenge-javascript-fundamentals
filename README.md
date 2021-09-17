@@ -34,17 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
     
     .filter returns a single array with only what you wanted filtered out of the problem. 
          A best use case for this method would be to filter through an array of objects to find what objects in an area meet a certain criteria
-         
+
 2. Explain the difference between a callback and a higher order function.
+
     A callback function is a function that uses data from a previous bi of data. Whereas a higher order function refers back to it's parent function for the required data.
 
 3. Explain what a closure is.
+
     A closure happens once you call a function inside of another function
 
 4. Describe the four principles of the 'this' keyword.
 
+    Global Binding: When globally bound, "this" will apply to the window in it's entirety
+    Implicit Binding: When Implicitly bound "this" refers to items just inside of the current object
+    New Binding: When New Bound "this" refers to keys inside of a constructor function
+    
+
 5. Why do we need super() in an extended class?
+
     Super in an extended class allows us to call upon keys created in the "parent" class. Thus we don't have to re-initialize those keys in the child's constructor.
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
