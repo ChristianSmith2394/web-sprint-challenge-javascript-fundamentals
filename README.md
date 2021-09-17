@@ -48,7 +48,7 @@ Edit this document to include your answers after each question. Make sure to lea
     Global Binding: When globally bound, "this" will apply to the window in it's entirety
     Implicit Binding: When Implicitly bound "this" refers to items just inside of the current object
     New Binding: When New Bound "this" refers to keys inside of a constructor function
-    
+    Explicit Binding: When Explicitly Bound "this" refers to new bindings in order to override them with call/apply.It explicitly defines "this"
 
 5. Why do we need super() in an extended class?
 
