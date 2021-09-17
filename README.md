@@ -25,11 +25,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
-
+    
+    .map returns a completely new array with just specified keys from an array of objects.
+    A best use case for this method would be trying to filter through an array of objects for just specific keys. Like just getting the name from a list of user's data, or just their emails to send them newsletters.
+    
+    .reduce returns a single integer after adding all of the numbers together to get a total sum of the integers. 
+        A best use case for this method would be to add up numbers of "x" from an array of objects in order to get a total
+    
+    .filter returns a single array with only what you wanted filtered out of the problem. 
+         A best use case for this method would be to filter through an array of objects to find what objects in an area meet a certain criteria
+         
 2. Explain the difference between a callback and a higher order function.
     A callback function is a function that uses data from a previous bi of data. Whereas a higher order function refers back to it's parent function for the required data.
+
 3. Explain what a closure is.
     A closure happens once you call a function inside of another function
+
 4. Describe the four principles of the 'this' keyword.
 
 5. Why do we need super() in an extended class?
