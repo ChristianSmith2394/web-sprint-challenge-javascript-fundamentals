@@ -37,11 +37,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Explain the difference between a callback and a higher order function.
 
-    A callback function is a function that uses data from a previous bi of data. Whereas a higher order function refers back to it's parent function for the required data.
+    A callback function is a function that uses data from a previous bit of data. Whereas a higher order function refers back to it's parent function for the required data. A higher order function is a function that accepts other functions as a parameter and/or returns a function.
 
 3. Explain what a closure is.
 
-    A closure happens once you call a function inside of another function
+    A closure happens once you call a function inside of another function. It allows you to callback into that function from an outer function
 
 4. Describe the four principles of the 'this' keyword.
 
