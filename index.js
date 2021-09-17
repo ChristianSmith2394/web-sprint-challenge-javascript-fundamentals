@@ -59,7 +59,6 @@ const zooAnimals = [
 
   function animalNames(){
 
-    return `name: ${name}, scientific: ${scientific_name}`
   }
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
@@ -68,8 +67,10 @@ const zooAnimals = [
   For example: ['jackal, asiatic', .....]
   */
 
-  function lowerCaseNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function lowerCaseNames(object){
+    const lowerName = zooAnimals.map(object, function(item, index) {
+      return item.toLpperCase();
+    })
   }
   
   
@@ -124,8 +125,8 @@ function multiply(num1, num2){
 
  // 🦁🦁🦁 Use greeting to accept a first and last name and return "Hello {first-name} {last-name}, nice to meet you!" 🦁🦁🦁
   
-function greeting(/*Your Code Here */){
-   return /*Your Code Here */
+function greeting(firstName, lastName){
+   return `Hello ${firstName} ${lastName}, nice to meet you!`
   }
   
   
